@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="851.4pt" height="363.672pt" viewBox="0 0 851.4 363.672" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-20T18:56:52.834662</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 363.672 
+L 851.4 363.672 
+L 851.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.824 171.497549 
+L 175.716 171.497549 
+Q 182.412 171.497549 182.412 164.791526 
+L 182.412 28.435738 
+Q 182.412 21.729715 175.716 21.729715 
+L 22.824 21.729715 
+Q 16.128 21.729715 16.128 28.435738 
+L 16.128 164.791526 
+Q 16.128 171.497549 22.824 171.497549 
+z
+" clip-path="url(#pbf1d19f81d)" style="fill: #f3f3f1; stroke: #52514e; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 206.964 171.497549 
+L 348.696 171.497549 
+Q 355.392 171.497549 355.392 164.791526 
+L 355.392 28.435738 
+Q 355.392 21.729715 348.696 21.729715 
+L 206.964 21.729715 
+Q 200.268 21.729715 200.268 28.435738 
+L 200.268 164.791526 
+Q 200.268 171.497549 206.964 171.497549 
+z
+" clip-path="url(#pbf1d19f81d)" style="fill: #f3f3f1; stroke: #52514e; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 379.944 171.497549 
+L 549.576 171.497549 
+Q 556.272 171.497549 556.272 164.791526 
+L 556.272 28.435738 
+Q 556.272 21.729715 549.576 21.729715 
+L 379.944 21.729715 
+Q 373.248 21.729715 373.248 28.435738 
+L 373.248 164.791526 
+Q 373.248 171.497549 379.944 171.497549 
+z
+" clip-path="url(#pbf1d19f81d)" style="fill: #fdf0e8; stroke: #eb6834; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 580.824 171.497549 
+L 711.396 171.497549 
+Q 718.092 171.497549 718.092 164.791526 
+L 718.092 28.435738 
+Q 718.092 21.729715 711.396 21.729715 
+L 580.824 21.729715 
+Q 574.128 21.729715 574.128 28.435738 
+L 574.128 164.791526 
+Q 574.128 171.497549 580.824 171.497549 
+z
+" clip-path="url(#pbf1d19f81d)" style="fill: #e8f1fb; stroke: #2a78d6; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 580.824 339.148109 
+L 711.396 339.148109 
+Q 718.092 339.148109 718.092 332.442086 
+L 718.092 201.67465 
+Q 718.092 194.968627 711.396 194.968627 
+L 580.824 194.968627 
+Q 574.128 194.968627 574.128 201.67465 
+L 574.128 332.442086 
+Q 574.128 339.148109 580.824 339.148109 
+z
+" clip-path="url(#pbf1d19f81d)" style="fill: #e8f1fb; stroke: #2a78d6; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 379.944 339.148109 
+L 549.576 339.148109 
+Q 556.272 339.148109 556.272 332.442086 
+L 556.272 201.67465 
+Q 556.272 194.968627 549.576 194.968627 
+L 379.944 194.968627 
+Q 373.248 194.968627 373.248 201.67465 
+L 373.248 332.442086 
+Q 373.248 339.148109 379.944 339.148109 
+z
+" clip-path="url(#pbf1d19f81d)" style="fill: #f3f3f1; stroke: #52514e; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 737.064 171.497549 
+L 831.366 171.497549 
+Q 838.062 171.497549 838.062 164.791526 
+L 838.062 28.435738 
+Q 838.062 21.729715 831.366 21.729715 
+L 737.064 21.729715 
+Q 730.368 21.729715 730.368 28.435738 
+L 730.368 164.791526 
+Q 730.368 171.497549 737.064 171.497549 
+z
+" clip-path="url(#pbf1d19f81d)" style="fill: #eef5f1; stroke: #1f9e74; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 737.064 339.148109 
+L 831.366 339.148109 
+Q 838.062 339.148109 838.062 332.442086 
+L 838.062 201.67465 
+Q 838.062 194.968627 831.366 194.968627 
+L 737.064 194.968627 
+Q 730.368 194.968627 730.368 201.67465 
+L 730.368 332.442086 
+Q 730.368 339.148109 737.064 339.148109 
+z
+" clip-path="url(#pbf1d19f81d)" style="fill: #eef5f1; stroke: #1f9e74; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 464.76 336.912768 
+L 464.76 349.207142 
+L 783.936 349.207142 
+" clip-path="url(#pbf1d19f81d)" style="fill: none; stroke: #1f9e74; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="26.73" y="42.360276" transform="rotate(-0 26.73 42.360276)">1  Candidate loading axes</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(26.73 64.387651)">unit Mandel directions</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(26.73 74.290035)">d = (σxx, σyy, √2σxy)/‖·‖</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(26.73 83.87797)">antipodal axes {d, −d}</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(26.73 93.254529)">(B1/B2: 207-axis library;</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(26.73 102.631088)">analytic: 4,096 equal-area;</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(26.73 112.007648)">TL1: 8,192 signed directions)</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="210.87" y="42.360276" transform="rotate(-0 210.87 42.360276)">2  Initial design</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(210.87 64.387651)">8 axial-maximin axes from a</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(210.87 73.76421)">seeded first axis; shared by</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(210.87 83.14077)">every method (BO, V3,</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(210.87 92.517329)">maximin, random)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="383.85" y="42.360276" transform="rotate(-0 383.85 42.360276)">3  MOOSE virtual test</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 64.387651)">periodic RVE / truss under</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 73.76421)">stress control along d;</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 83.14077)">load ramp + refinement until</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 92.517329)">volume-avg plastic strain = 1e-4</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 101.893888)">→ yield radius r(d)  (~2–3 min,</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 111.270448)">B1/B2; 7 s, TL1)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="584.73" y="42.286057" transform="rotate(-0 584.73 42.286057)">4  GP surrogate</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(584.73 64.691651)">Matérn-3/2 GP on log r,</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(584.73 74.06821)">antipodal pseudo-obs.,</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(584.73 83.44477)">A20: ℓ = 0.5 fixed (n &lt; 20),</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(584.73 92.821329)">ML-II (n ≥ 20)</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="584.73" y="215.599188" transform="rotate(-0 584.73 215.599188)">5  Acquisition</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(584.73 237.626563)">V2 (MES): max σ²ₙ(d)</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(584.73 247.003122)">V3 (LRV): max σ²ₙ(d)·ρₙ(d)</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(584.73 256.379682)">ρₙ: interpolated LOO</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(584.73 265.756241)">residuals</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(584.73 275.1328)">next untested axis</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="383.85" y="215.599188" transform="rotate(-0 383.85 215.599188)">6  Budget reached?</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 237.626563)">n = 33 (B1/B2)</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 247.003122)">n = 64 (TL1; checkpoint 33)</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 256.379682)">n = 33 / 64 (analytic)</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 265.756241)">failed solves: axis marked</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(383.85 275.1328)">unavailable, budget kept</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 42.360276)">7  Independent</text>
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 52.998197)">references</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 64.387651)">MOOSE refs never</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 73.76421)">seen by any</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 83.14077)">controller</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 92.517329)">(B1/B2: 60 + 12;</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 101.893888)">TL1: 482)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="740.97" y="215.599188" transform="rotate(-0 740.97 215.599188)">8  Evaluation</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 237.626563)">refit frozen GP on</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 247.003122)">each design's first</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 256.790082)">n tests; |r̂/r − 1|,</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 266.378016)">coverage, paired</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(740.97 275.754575)">statistics</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 182.182588 96.613632 
+Q 191.341792 96.613632 198.935749 96.613632 
+" style="fill: none; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 195.535749 94.913632 
+L 198.935749 96.613632 
+L 195.535749 98.313632 
+z
+" style="fill: #52514e; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 355.162588 96.613632 
+Q 364.321792 96.613632 371.915749 96.613632 
+" style="fill: none; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 368.515749 94.913632 
+L 371.915749 96.613632 
+L 368.515749 98.313632 
+z
+" style="fill: #52514e; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 556.042588 96.613632 
+Q 565.201792 96.613632 572.795749 96.613632 
+" style="fill: none; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 569.395749 94.913632 
+L 572.795749 96.613632 
+L 569.395749 98.313632 
+z
+" style="fill: #52514e; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="565.2" y="89.90761" transform="rotate(-0 565.2 89.90761)">r(d)</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 646.11 171.264382 
+Q 646.11 183.235159 646.11 193.640688 
+" style="fill: none; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 647.81 190.240688 
+L 646.11 193.640688 
+L 644.41 190.240688 
+z
+" style="fill: #52514e; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="651.69" y="185.219838" transform="rotate(-0 651.69 185.219838)">posterior</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 574.357412 267.058368 
+Q 565.198208 267.058368 557.604251 267.058368 
+" style="fill: none; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 561.004251 268.758368 
+L 557.604251 267.058368 
+L 561.004251 265.358368 
+z
+" style="fill: #52514e; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="565.2" y="259.79351" transform="rotate(-0 565.2 259.79351)">next d</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 464.76 195.201794 
+Q 464.76 183.231017 464.76 172.825488 
+" style="fill: none; stroke: #eb6834; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 463.06 176.225488 
+L 464.76 172.825488 
+L 466.46 176.225488 
+z
+" style="fill: #eb6834; stroke: #eb6834; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #eb6834" x="470.34" y="188.014014" transform="rotate(-0 470.34 188.014014)">no: run next test</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 783.936 347.205104 
+Q 783.936 343.057765 783.936 340.475674 
+" style="fill: none; stroke: #1f9e74; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 782.236 343.875674 
+L 783.936 340.475674 
+L 785.636 343.875674 
+z
+" style="fill: #1f9e74; stroke: #1f9e74; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1f9e74" x="621" y="345.854131" transform="rotate(-0 621 345.854131)">yes: final design</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 783.936 171.264382 
+Q 783.936 183.235159 783.936 193.640688 
+" style="fill: none; stroke: #1f9e74; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 785.636 190.240688 
+L 783.936 193.640688 
+L 782.236 190.240688 
+z
+" style="fill: #1f9e74; stroke: #1f9e74; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 206.076894)">Closed loop (blue/orange) sees only the candidate</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 215.035144)">axes and its own MOOSE results.</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 223.993394)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 232.951644)">Evaluation (green) uses independent MOOSE</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 241.909894)">references, never visible to a controller.</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 250.868144)"/>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 259.826394)">Response ablations (V2: smooth base; V3: isotropic</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 268.784644)">J2) feed the same loop uninformative responses to</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 277.742894)">test whether selections — and accuracy — depend</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18.36 286.701144)">on the measured material.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbf1d19f81d">
+   <rect x="7.2" y="7.2" width="837" height="349.272"/>
+  </clipPath>
+ </defs>
+</svg>
