@@ -1,0 +1,206 @@
+{
+ "name": "TL1",
+ "a": 1.0,
+ "L1": [
+  2.0,
+  0.0
+ ],
+ "L2": [
+  1.0,
+  1.7320508075688772
+ ],
+ "cell_area": 3.4641016151377544,
+ "nodes": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   1.0,
+   0.0
+  ],
+  [
+   0.5,
+   0.8660254037844386
+  ],
+  [
+   1.5,
+   0.8660254037844386
+  ]
+ ],
+ "node_role": [
+  "frame_vertex",
+  "kagome",
+  "kagome",
+  "kagome"
+ ],
+ "materials": {
+  "FRAME": {
+   "E": 200000.0,
+   "sigma_y": 300.0,
+   "H": 2000.0
+  },
+  "INFILL": {
+   "E": 200000.0,
+   "sigma_y": 200.0,
+   "H": 2000.0
+  }
+ },
+ "families": {
+  "FH": {
+   "material": "FRAME",
+   "area": 0.05,
+   "theta_deg": 0
+  },
+  "FI60": {
+   "material": "FRAME",
+   "area": 0.03,
+   "theta_deg": 60
+  },
+  "FI120": {
+   "material": "FRAME",
+   "area": 0.03,
+   "theta_deg": 120
+  },
+  "K0": {
+   "material": "INFILL",
+   "area": 0.02,
+   "theta_deg": 0
+  },
+  "K60": {
+   "material": "INFILL",
+   "area": 0.02,
+   "theta_deg": 60
+  },
+  "K120": {
+   "material": "INFILL",
+   "area": 0.02,
+   "theta_deg": 120
+  }
+ },
+ "bars": [
+  {
+   "i": 0,
+   "j": 1,
+   "shift": [
+    0,
+    0
+   ],
+   "family": "FH",
+   "theta_deg": 0
+  },
+  {
+   "i": 0,
+   "j": 2,
+   "shift": [
+    0,
+    0
+   ],
+   "family": "FI60",
+   "theta_deg": 60
+  },
+  {
+   "i": 0,
+   "j": 3,
+   "shift": [
+    -1,
+    0
+   ],
+   "family": "FI120",
+   "theta_deg": 120
+  },
+  {
+   "i": 1,
+   "j": 0,
+   "shift": [
+    1,
+    0
+   ],
+   "family": "FH",
+   "theta_deg": 0
+  },
+  {
+   "i": 1,
+   "j": 3,
+   "shift": [
+    0,
+    0
+   ],
+   "family": "K60",
+   "theta_deg": 60
+  },
+  {
+   "i": 1,
+   "j": 2,
+   "shift": [
+    0,
+    0
+   ],
+   "family": "K120",
+   "theta_deg": 120
+  },
+  {
+   "i": 2,
+   "j": 3,
+   "shift": [
+    0,
+    0
+   ],
+   "family": "K0",
+   "theta_deg": 0
+  },
+  {
+   "i": 2,
+   "j": 0,
+   "shift": [
+    0,
+    1
+   ],
+   "family": "FI60",
+   "theta_deg": 60
+  },
+  {
+   "i": 2,
+   "j": 1,
+   "shift": [
+    -1,
+    1
+   ],
+   "family": "K120",
+   "theta_deg": 120
+  },
+  {
+   "i": 3,
+   "j": 2,
+   "shift": [
+    1,
+    0
+   ],
+   "family": "K0",
+   "theta_deg": 0
+  },
+  {
+   "i": 3,
+   "j": 1,
+   "shift": [
+    0,
+    1
+   ],
+   "family": "K60",
+   "theta_deg": 60
+  },
+  {
+   "i": 3,
+   "j": 0,
+   "shift": [
+    0,
+    1
+   ],
+   "family": "FI120",
+   "theta_deg": 120
+  }
+ ],
+ "n_bars": 12,
+ "relative_density": 0.09814954576223639,
+ "static_indeterminacy": 3
+}

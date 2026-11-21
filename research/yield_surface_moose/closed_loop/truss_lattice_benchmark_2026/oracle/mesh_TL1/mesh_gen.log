@@ -1,0 +1,132 @@
+Stitching nodes   Node id()=0, processor_id()=0, Point=(x,y,z)=(       0,        0,        0)
+    DoFs=
+ and              Node id()=2, processor_id()=0, Point=(x,y,z)=(       0,        0,        0)
+    DoFs=
+
+Stitching nodes   Node id()=0, processor_id()=0, Point=(x,y,z)=(       0,        0,        0)
+    DoFs=
+ and              Node id()=4, processor_id()=0, Point=(x,y,z)=(       0,        0,        0)
+    DoFs=
+
+Stitching nodes   Node id()=1, processor_id()=0, Point=(x,y,z)=(       1,        0,        0)
+    DoFs=
+ and              Node id()=6, processor_id()=0, Point=(x,y,z)=(       1,        0,        0)
+    DoFs=
+
+Stitching nodes   Node id()=1, processor_id()=0, Point=(x,y,z)=(       1,        0,        0)
+    DoFs=
+ and              Node id()=10, processor_id()=0, Point=(x,y,z)=(       1,        0,        0)
+    DoFs=
+
+Stitching nodes   Node id()=1, processor_id()=0, Point=(x,y,z)=(       1,        0,        0)
+    DoFs=
+ and              Node id()=8, processor_id()=0, Point=(x,y,z)=(       1,        0,        0)
+    DoFs=
+
+Stitching nodes   Node id()=3, processor_id()=0, Point=(x,y,z)=(     0.5, 0.866025,        0)
+    DoFs=
+ and              Node id()=16, processor_id()=0, Point=(x,y,z)=(     0.5, 0.866025,        0)
+    DoFs=
+
+Stitching nodes   Node id()=3, processor_id()=0, Point=(x,y,z)=(     0.5, 0.866025,        0)
+    DoFs=
+ and              Node id()=12, processor_id()=0, Point=(x,y,z)=(     0.5, 0.866025,        0)
+    DoFs=
+
+Stitching nodes   Node id()=3, processor_id()=0, Point=(x,y,z)=(     0.5, 0.866025,        0)
+    DoFs=
+ and              Node id()=14, processor_id()=0, Point=(x,y,z)=(     0.5, 0.866025,        0)
+    DoFs=
+
+Stitching nodes   Node id()=3, processor_id()=0, Point=(x,y,z)=(     0.5, 0.866025,        0)
+    DoFs=
+ and              Node id()=11, processor_id()=0, Point=(x,y,z)=(     0.5, 0.866025,        0)
+    DoFs=
+
+Node stitching will now proceed silently.
+Number of overlapping nodes which got merged: 14
+ Mesh Information:
+  elem_dimensions()={1}
+  elem_default_orders()={FIRST}
+  supported_nodal_order()=1
+  spatial_dimension()=2
+  n_nodes()=12
+    n_local_nodes()=12
+  n_elem()=13
+    n_local_elem()=13
+    n_active_elem()=13
+  n_subdomains()=7
+  n_elemsets()=0
+  n_partitions()=1
+  n_processors()=1
+  n_threads()=1
+  processor_id()=0
+  is_prepared()=true
+  is_replicated()=true
+
+ Mesh Bounding Box:
+  Minimum: (x,y,z)=(      -2,       -1,        0)
+  Maximum: (x,y,z)=(     2.5,  1.73205,        0)
+  Delta:   (x,y,z)=(     4.5,  2.73205,        0)
+
+ Mesh Element Type(s):
+  EDGE2
+
+ Mesh Nodesets:
+  Nodeset 1 (pin), 1 nodes
+   Bounding box minimum: (x,y,z)=(       0,        0,        0)
+   Bounding box maximum: (x,y,z)=(       0,        0,        0)
+   Bounding box delta: (x,y,z)=(       0,        0,        0)
+  Nodeset 2 (c1), 1 nodes
+   Bounding box minimum: (x,y,z)=(      -1,       -1,        0)
+   Bounding box maximum: (x,y,z)=(      -1,       -1,        0)
+   Bounding box delta: (x,y,z)=(       0,        0,        0)
+  Nodeset 3 (c2), 1 nodes
+   Bounding box minimum: (x,y,z)=(      -2,       -1,        0)
+   Bounding box maximum: (x,y,z)=(      -2,       -1,        0)
+   Bounding box delta: (x,y,z)=(       0,        0,        0)
+
+ Mesh Sidesets:
+  None
+
+ Mesh Edgesets:
+  None
+
+ Mesh Subdomains:
+  Subdomain 1: 2 elems (EDGE2, 2 active), 3 active nodes
+   Volume: 2
+   Bounding box minimum: (x,y,z)=(       0,        0,        0)
+   Bounding box maximum: (x,y,z)=(       2,        0,        0)
+   Bounding box delta: (x,y,z)=(       2,        0,        0)
+  Subdomain 2: 2 elems (EDGE2, 2 active), 3 active nodes
+   Volume: 2
+   Bounding box minimum: (x,y,z)=(       0,        0,        0)
+   Bounding box maximum: (x,y,z)=(       1,  1.73205,        0)
+   Bounding box delta: (x,y,z)=(       1,  1.73205,        0)
+  Subdomain 3: 2 elems (EDGE2, 2 active), 4 active nodes
+   Volume: 2
+   Bounding box minimum: (x,y,z)=(    -0.5,        0,        0)
+   Bounding box maximum: (x,y,z)=(     1.5,  1.73205,        0)
+   Bounding box delta: (x,y,z)=(       2,  1.73205,        0)
+  Subdomain 4: 2 elems (EDGE2, 2 active), 3 active nodes
+   Volume: 2
+   Bounding box minimum: (x,y,z)=(     0.5, 0.866025,        0)
+   Bounding box maximum: (x,y,z)=(     2.5, 0.866025,        0)
+   Bounding box delta: (x,y,z)=(       2,        0,        0)
+  Subdomain 5: 2 elems (EDGE2, 2 active), 3 active nodes
+   Volume: 2
+   Bounding box minimum: (x,y,z)=(       1,        0,        0)
+   Bounding box maximum: (x,y,z)=(       2,  1.73205,        0)
+   Bounding box delta: (x,y,z)=(       1,  1.73205,        0)
+  Subdomain 6: 2 elems (EDGE2, 2 active), 3 active nodes
+   Volume: 2
+   Bounding box minimum: (x,y,z)=(       0,        0,        0)
+   Bounding box maximum: (x,y,z)=(       1,  1.73205,        0)
+   Bounding box delta: (x,y,z)=(       1,  1.73205,        0)
+  Subdomain 99: 1 elems (EDGE2, 1 active), 2 active nodes
+   Volume: 1
+   Bounding box minimum: (x,y,z)=(      -2,       -1,        0)
+   Bounding box maximum: (x,y,z)=(      -1,       -1,        0)
+   Bounding box delta: (x,y,z)=(       1,        0,        0)
+  Global mesh volume = 13
+

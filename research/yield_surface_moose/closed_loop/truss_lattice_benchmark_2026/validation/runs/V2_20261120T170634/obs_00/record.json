@@ -1,0 +1,123 @@
+{
+ "direction": [
+  1.0,
+  0.0,
+  0.0
+ ],
+ "r1_predicted_elastic": 8.082903768654655,
+ "returncode": 0,
+ "wall_s": 10.757571697235107,
+ "cpu_s": 10.74382,
+ "options": {
+  "dt": 0.01616580753730931,
+  "threshold": 0.0001,
+  "stop_factor": 1.5,
+  "t_max": 404.1451884327327,
+  "nl_rel_tol": 1e-10,
+  "nl_abs_tol": 1e-09,
+  "exodus": false,
+  "n_coarse": 10,
+  "switch_frac": 0.95,
+  "fine_per_r1": 500,
+  "t_switch": 7.678758580221921,
+  "dt_coarse": 0.7678758580221922
+ },
+ "input_sha256": "dc6eb0e4f249c73c7e8091b6898159e860d3b55554f57768dc22a2c1b9abf65e",
+ "nonlinear_residual_evals": 825,
+ "failed_steps": 0,
+ "n_steps": 215,
+ "t_last": 10.99274912537,
+ "criterion": "levin_macro_plastic_strain_mandel_norm",
+ "r_diag_total_strain_offset": 10.024533732729093,
+ "r1_first_yield": 8.082903768639317,
+ "r1_bar": 6,
+ "r1_family": "K0",
+ "first_plastic_step_t": 8.0829037686546,
+ "yield_radius": 10.026811680245059,
+ "crossed": true,
+ "step_at_yield": 155,
+ "Ep_at_yield": [
+  9.487030904790659e-05,
+  -3.161683066239474e-05,
+  -2.190936218468627e-08
+ ],
+ "Ep_total_strain_def_at_yield": [
+  9.487030904834871e-05,
+  -3.198577451586632e-05,
+  -3.672728289871284e-18
+ ],
+ "E_at_yield": [
+  0.0013353665424842567,
+  -0.0004455186252074375,
+  -4.284227159005184e-18
+ ],
+ "stress_mandel": [
+  10.026811680245059,
+  0.0,
+  0.0
+ ],
+ "stress_homog_from_bars": [
+  10.026811680244274,
+  -7.088670817248014e-13,
+  5.024093145013313e-14
+ ],
+ "achieved_dir_err_deg": 0.0,
+ "equilibrium_rel_err_max": 4.887692084484135e-12,
+ "small_strain_homog_vs_applied_max": 4.887692255855105e-12,
+ "Wp_at_yield": 0.0007681007054258552,
+ "ep_solid_avg_at_yield": 3.906424490207866e-05,
+ "ep_cell_avg_at_yield": 3.83413789268378e-06,
+ "bar_sigma_at_yield": [
+  267.0733084968564,
+  -5.509297866698188e-12,
+  -1.6695162625804814e-11,
+  267.0733084968387,
+  -1.1018595733396377e-11,
+  -1.6695162625804814e-11,
+  200.66409216331266,
+  -2.2204460492503e-11,
+  -2.2204460492503e-11,
+  200.66409216330513,
+  -2.2204460492503e-11,
+  -1.6695162625804814e-11
+ ],
+ "bar_ep_at_yield": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0003320460816561187,
+  0.0,
+  0.0,
+  0.0003320460816792187,
+  0.0,
+  0.0
+ ],
+ "yielded_bars": [
+  6,
+  9
+ ],
+ "yielded_families": [
+  "K0"
+ ],
+ "plastic_share_by_family": {
+  "FH": 0.0,
+  "FI60": 0.0,
+  "FI120": 0.0,
+  "K0": 1.0,
+  "K60": 0.0,
+  "K120": 0.0
+ },
+ "offset_to_first_yield_ratio": 1.2404962334387633,
+ "periodic_check": {
+  "ghost_constraint_abs_err": 1.9992688060632702e-16,
+  "rel": 4.8593339036186983e-14,
+  "pin_abs": 0.0,
+  "c1_y_abs": 0.0
+ },
+ "flags": [],
+ "accepted": true,
+ "workdir": "/home/jarettpoliner/projects/yield_surface_moose/plane_stress/closed_loop/truss_lattice_benchmark_2026/validation/runs/V2_20261120T170634/obs_00"
+}
