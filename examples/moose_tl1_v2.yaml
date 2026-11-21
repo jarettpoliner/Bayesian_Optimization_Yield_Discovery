@@ -1,0 +1,14 @@
+# Mode C (LIVE MOOSE; requires a compatible MOOSE build, see INSTALL.md): V2-A20 on the built-in TL1 truss specimen.
+# Executable: $YSBO_MOOSE_EXE (or specimen.moose_truss.moose_exe).  Stop safely: touch <outdir>/STOP.  Resume: run the same command again.
+method: v2_mes
+n_initial: 8
+budget: 33
+start: 0
+library: {builtin: tl1_signed_8192}
+specimen:
+  kind: moose_truss
+  moose_truss: {threshold: 1.0e-4}          # lattice: specimens/my_truss.json for a new specimen; solver: {fine_per_r1: 500}
+  symmetry: none
+evaluation: {references_csv: ../research/yield_surface_moose/plane_stress/closed_loop/truss_lattice_benchmark_2026/pilot/refs_TREF_v1_20261120T171229/reference_results.csv, reference_set: area, checkpoints: [8, 16, 33]}
+limits: {cpu_hours: 0.5, stop_file: STOP}
+outdir: ../outputs/moose_tl1_v2

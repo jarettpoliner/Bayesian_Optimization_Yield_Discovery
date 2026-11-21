@@ -1,0 +1,12 @@
+# Mode C template for ANY simulation code: one command per loading direction; it must write {workdir}/result.json.
+# The bundled command is an ANALYTIC STAND-IN (von Mises) used only to test the plumbing; replace it with your MOOSE driver script.
+method: v2_mes
+n_initial: 8
+budget: 16
+start: 0
+library: {builtin: tl1_signed_8192}
+specimen:
+  kind: external_command
+  external_command: {command: "python3 \"$YSBO_ROOT/examples/external_command/analytic_standin.py\" '{direction_json}' {workdir}", timeout_s: 600}
+  symmetry: none
+outdir: ../outputs/external_command_v2

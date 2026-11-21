@@ -1,0 +1,13 @@
+# Mode B (no MOOSE): v3_weighted replayed against archived REAL MOOSE observations of the TL1 truss (start 0; signed directions, no symmetry).
+# Error is evaluated against the 482 independent MOOSE references (area-uniform set), evaluator side only.
+method: v3_weighted
+n_initial: 8
+budget: 64
+start: 0
+library: {builtin: tl1_signed_8192}
+specimen:
+  kind: replay_store
+  replay_store: {stores: ["@v3transfer", "@campaign3"]}
+  symmetry: none
+evaluation: {references_csv: ../research/yield_surface_moose/plane_stress/closed_loop/truss_lattice_benchmark_2026/pilot/refs_TREF_v1_20261120T171229/reference_results.csv, reference_set: area, checkpoints: [8, 16, 33, 64]}
+outdir: ../outputs/replay_tl1_v3_weighted

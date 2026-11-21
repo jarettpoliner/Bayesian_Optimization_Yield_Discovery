@@ -1,0 +1,14 @@
+# Mode A (no MOOSE): v3_weighted on a frozen H1 holdout surface (Barlat Yld91 realisation 0; exact, antipodally symmetric by construction).
+method: v3_weighted
+n_initial: 8
+budget: 33
+start: 0
+library: {builtin: analytic_axes_4096}
+specimen:
+  kind: analytic
+  analytic: {surface: yld91_h1, realisation: 0}
+  symmetry: antipodal
+  symmetry_validated: true
+  symmetry_evidence: "Yld91 is an even function of the stress tensor: r(d) = r(-d) exactly (analytic)"
+evaluation: {checkpoints: [8, 16, 24, 33], n_references: 4000}
+outdir: ../outputs/analytic_v3_weighted

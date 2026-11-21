@@ -1,0 +1,13 @@
+# Mode B (no MOOSE): frozen V2-A20 replayed against the archived REAL MOOSE observations of the B2 composite (final benchmark, BO start 0).
+method: v2_mes
+n_initial: 8
+budget: 33
+start: 0
+library: {builtin: b1b2_axes_207}
+specimen:
+  kind: replay_release
+  replay_release: {trials: "@release/data/campaigns/B2/bo_s0/trials.jsonl"}
+  symmetry: antipodal
+  symmetry_validated: true
+  symmetry_evidence: "S1b-min: B1/B2 MOOSE r(d) = r(-d) to |dr/r| <= 2.3e-14 (release REPORT_FINAL_B1_B2_BO_BENCHMARK.md)"
+outdir: ../outputs/replay_b2_v2
