@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Global p95 relative radial error (\%) on 3183 held-out directions, Mg--4\%Li; median [min--max] over starts. Test counts are real experiments; shear-mirror pseudo-observations are not tests.}
+\label{tab:main_results}
+\begin{tabular}{lllllllll}
+\hline
+Method & Mode & Symmetry & Library & Starts (distinct runs) & 8 tests & 16 tests & 20 tests & 28 tests \\
+\hline
+FROZEN PRACTICAL METHOD & physics-informed & shear mirror & expanded physical & 5 (4) & 30.08 [14.19--32.04] & 3.72 [1.75--4.39] & 3.49 [1.50--4.12] & 1.61 [1.31--1.87] \\
+generic blind baseline & generic blind & none & expanded physical & 5 (5) & 29.83 [24.74--32.09] & 11.46 [8.71--15.09] & 4.93 [4.21--5.70] & 3.98 [3.68--4.17] \\
+direct GP + mirror on frozen symmetric test sequences (library comparison) & physics-informed (reconstruction) & shear mirror & conventional & 5 (5) & 19.92 [19.90--23.20] & 7.65 [6.81--8.34] & 6.58 [6.48--6.67] & 7.05 [7.03--7.15] \\
+direct GP + mirror on frozen symmetric test sequences (library comparison) & physics-informed (reconstruction) & shear mirror & expanded physical & 5 (5) & 19.27 [18.68--31.03] & 3.78 [3.45--4.16] & 1.94 [1.24--2.78] & 1.24 [1.07--1.27] \\
+direct GP + mirror on frozen symmetric test sequences (library comparison) & physics-informed (reconstruction) & shear mirror & arbitrary-direction reference & 5 (5) & 17.65 [9.09--23.99] & 4.23 [3.66--4.50] & 2.05 [1.43--3.01] & 1.16 [0.91--1.36] \\
+template-informed residual GP (earlier method) & template-informed & shear mirror & conventional & 5 (5) & 47.86 [36.69--49.33] & 8.44 [7.77--9.60] & 8.06 [7.94--8.85] & 7.81 [7.81--7.90] \\
+template-informed residual GP (earlier method) & template-informed & shear mirror & expanded physical & 5 (5) & 28.36 [22.36--31.45] & 4.68 [3.86--5.70] & 2.55 [1.64--2.64] & 1.28 [1.26--1.71] \\
+template-informed residual GP (earlier method) & template-informed & shear mirror & arbitrary-direction reference & 5 (5) & 23.60 [17.81--31.37] & 4.62 [4.45--4.86] & 2.55 [2.23--4.09] & 1.46 [1.20--1.54] \\
+generic blind with separate RBF selector (blind study) & generic blind & none & conventional & 5 (5) & 19.41 [17.12--26.64] & 7.59 [7.23--17.46] & 6.91 [6.50--7.95] & 6.97 [6.63--7.21] \\
+generic blind with separate RBF selector (blind study) & generic blind & none & expanded physical & 5 (5) & 29.83 [24.74--32.09] & 11.46 [8.71--15.09] & 4.93 [4.21--5.78] & 4.08 [3.76--4.18] \\
+generic blind with separate RBF selector (blind study) & generic blind & none & arbitrary-direction reference & 5 (5) & 25.77 [22.01--33.09] & 14.60 [9.58--17.24] & 5.77 [5.15--7.71] & 3.66 [2.60--4.38] \\
+template-informed GP + shear mirror, published fixed design & template-informed & shear mirror & conventional & 1 (1) & 13.71 & 8.58 & -- & 8.22 \\
+direct Matern-3/2 GP (generic blind), published fixed design & generic blind & none & conventional & 1 (1) & 21.47 & 9.43 & -- & 6.90 \\
+\hline
+\end{tabular}
+\end{table}

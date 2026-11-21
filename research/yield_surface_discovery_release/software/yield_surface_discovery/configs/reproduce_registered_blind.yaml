@@ -1,0 +1,39 @@
+# REPRODUCES the registered generic-blind runs (same-surrogate Arm A, generic blind) bit-for-bit in the pinned environment:
+# original 416-label library, registered start rule, round-off (legacy) tie handling. Use only for verification.
+# Physics-informed = the generic method + the known shear-mirror symmetry (s_xy -> -s_xy). It is NOT fully blind.
+name: reproduce_registered_blind
+candidate_library:
+  path: ../data/candidates/expanded_physical_loading_library.csv   # expanded physical loading library (Pool 2)
+  deduplicate: false
+  dedup_tolerance: 1.0e-9
+symmetry:
+  shear_mirror: false
+gp:
+  kernel: matern32
+  target: log_radius
+  optimize_hyperparameters: true    # frozen schedule: fixed below 20 training points, ML-II from 20
+  fit_direction: requested
+initialization:
+  method: angular_maximin
+  n_initial: 8
+  start_rule: registered_legacy
+  seed_base: 7000
+  first_index: 0
+  ties: legacy
+acquisition:
+  method: predictive_variance
+  ties: legacy
+  tie_relative_tolerance: 1.0e-10
+  tie_absolute_tolerance: 1.0e-12
+budget:
+  total_real_tests: 28              # real physical tests / oracle calls (pseudo-observations never count)
+  report_at: [8, 12, 16, 20, 24, 28]
+starts: [0, 1, 2, 3, 4]
+oracle:                             # the hidden "material"; only the oracle sees it
+  type: analytical
+  model: cb2004_mg4li
+evaluation:                         # scoring only (needs reference radii); never used by the controller
+  directions_path: ../data/benchmark/heldout_eval_rays.csv
+output:
+  directory: ../outputs/reproduce_registered_blind
+  export_mesh: true

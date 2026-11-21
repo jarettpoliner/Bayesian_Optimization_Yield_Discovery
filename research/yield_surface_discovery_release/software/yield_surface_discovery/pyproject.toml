@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yield-surface-discovery"
+version = "1.0.0"
+description = "Adaptive selection of physical loading tests to reconstruct an unknown plane-stress yield surface (direct Matern-3/2 GP + maximum predictive uncertainty; optional shear-mirror symmetry; solver-independent oracle interface)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=2.0", "scikit-learn>=1.3", "matplotlib>=3.7", "pyyaml>=6.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

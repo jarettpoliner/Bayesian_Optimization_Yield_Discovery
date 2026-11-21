@@ -1,0 +1,21 @@
+# Closed loop against an EXTERNAL command-line solver.  The bundled stub (examples/external_solver_stub/stub_solver.py) stands in for any
+# mechanics code: it receives the loading direction on the command line and writes result.json.  Replace `command` with your own solver call.
+name: external_solver_example
+candidate_library:
+  path: ../data/candidates/expanded_physical_loading_library.csv
+  deduplicate: true
+symmetry:
+  shear_mirror: true                # set false for the generic blind mode
+gp: {kernel: matern32, target: log_radius, optimize_hyperparameters: true, fit_direction: requested}
+initialization: {method: angular_maximin, n_initial: 8, start_rule: seeded, seed_base: 7000, first_index: 0, ties: deterministic}
+acquisition: {method: predictive_variance, ties: deterministic}
+budget: {total_real_tests: 12, report_at: [12]}
+starts: [0]
+oracle:
+  type: external_command
+  command: ["{python}", "../examples/external_solver_stub/stub_solver.py", "--z1", "{z1}", "--z2", "{z2}", "--z3", "{z3}", "--out", "{run_dir}/result.json"]
+  work_dir: ../outputs/external_solver_runs
+  timeout_s: 120
+output:
+  directory: ../outputs/external_solver_example
+  export_mesh: true

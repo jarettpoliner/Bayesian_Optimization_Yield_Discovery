@@ -1,0 +1,12 @@
+# Minimal bundled example: physics-informed controller, expanded physical library, 12 real tests, Mg-4%Li analytical oracle.
+name: minimal_example
+candidate_library: {path: ../candidates/expanded_physical_loading_library.csv, deduplicate: true}
+symmetry: {shear_mirror: true}
+gp: {kernel: matern32, target: log_radius, optimize_hyperparameters: true, fit_direction: requested}
+initialization: {method: angular_maximin, n_initial: 8, start_rule: seeded, seed_base: 7000, first_index: 0, ties: deterministic}
+acquisition: {method: predictive_variance, ties: deterministic}
+budget: {total_real_tests: 12, report_at: [8, 12]}
+starts: [0]
+oracle: {type: analytical, model: cb2004_mg4li}
+evaluation: {directions_path: ../benchmark/heldout_eval_rays.csv}
+output: {directory: ../../outputs/minimal_example, export_mesh: true}

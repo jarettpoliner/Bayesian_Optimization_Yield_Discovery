@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Change in median global p95 (percentage points) caused by one change to the frozen practical method; each row from one registered comparison (sources in the CSV).}
+\label{tab:method_ablation}
+\begin{tabular}{llllll}
+\hline
+Change & 12 tests & 16 tests & 20 tests & 28 tests & Status \\
+\hline
+conventional instead of expanded loading library & +0.37 & +3.87 & +4.64 & +5.81 & registered \\
+no shear-mirror symmetry & +19.11 & +7.73 & +1.44 & +2.37 & registered \\
+IVR instead of predictive uncertainty & +5.12 & +0.00 & +0.14 & +0.56 & registered \\
+Hill-1948 template added (residual GP) & +10.88 & +0.90 & +0.61 & +0.04 & registered \\
+separate RBF selector instead of the same-GP predictive uncertainty (no symmetry) & +0.00 & +0.00 & -0.00 & +0.10 & registered \\
+symmetry-aware initialisation + deduplication + deterministic ties (cleanup) & +2.71 & +0.22 & -0.88 & +0.02 & registered (not adopted) \\
+\hline
+\end{tabular}
+\end{table}

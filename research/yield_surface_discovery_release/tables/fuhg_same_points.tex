@@ -1,0 +1,30 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Reconstruction on the identical published test points (single run per design); only the information-matched rows compare like with like.}
+\label{tab:fuhg_same_points}
+\begin{tabular}{lllllll}
+\hline
+Tests & Model & Status & Global p95 & Weak max over & Sharp max over & Ray failures \\
+\hline
+8 & Fuhg et al. GP (released checkpoint) & information-matched (no symmetry) & 22.40 & 7.37 & 33.92 & 0 \\
+8 & Fuhg et al. SVR (released checkpoint) & information-matched (no symmetry) & 36.54 & 23.26 & 25.39 & 0 \\
+8 & Fuhg et al. ICNN (released checkpoint) & information-matched (no symmetry) & 21.04 & 6.24 & 30.80 & 0 \\
+8 & direct Matern-3/2 GP (generic blind) & information-matched (no symmetry) & 21.47 & 22.58 & 20.24 & 0 \\
+8 & template-informed GP (Hill + Matern residual), no symmetry & information-matched (no symmetry) & 27.85 & 9.96 & 31.60 & 0 \\
+16 & Fuhg et al. GP (released checkpoint) & information-matched (no symmetry) & 9.54 & 1.70 & 12.62 & 0 \\
+16 & Fuhg et al. SVR (released checkpoint) & information-matched (no symmetry) & 9.68 & 2.80 & 14.60 & 0 \\
+16 & Fuhg et al. ICNN (released checkpoint) & information-matched (no symmetry) & 6.05 & 3.85 & 7.90 & 0 \\
+16 & direct Matern-3/2 GP (generic blind) & information-matched (no symmetry) & 9.43 & 4.21 & 5.13 & 0 \\
+16 & template-informed GP (Hill + Matern residual), no symmetry & information-matched (no symmetry) & 16.68 & 5.63 & 23.30 & 0 \\
+28 & Fuhg et al. GP (released checkpoint) & information-matched (no symmetry) & 8.63 & 0.96 & 12.44 & 0 \\
+28 & Fuhg et al. SVR (released checkpoint) & information-matched (no symmetry) & 8.94 & 0.80 & 13.56 & 0 \\
+28 & Fuhg et al. ICNN (released checkpoint) & information-matched (no symmetry) & 9.02 & 2.80 & 13.75 & 0 \\
+28 & direct Matern-3/2 GP (generic blind) & information-matched (no symmetry) & 6.90 & 2.54 & 7.61 & 0 \\
+28 & template-informed GP (Hill + Matern residual), no symmetry & information-matched (no symmetry) & 8.22 & 0.47 & 11.40 & 0 \\
+8 & template-informed GP + shear mirror & symmetry-assisted (not information-matched) & 13.71 & 3.74 & 18.84 & 0 \\
+16 & template-informed GP + shear mirror & symmetry-assisted (not information-matched) & 8.58 & 0.81 & 11.86 & 0 \\
+28 & template-informed GP + shear mirror & symmetry-assisted (not information-matched) & 8.22 & 0.47 & 11.40 & 0 \\
+\hline
+\end{tabular}
+\end{table}

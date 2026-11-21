@@ -1,0 +1,225 @@
+{
+ "acquisition_no_symmetry": {
+  "ivr_vs_entropy": {
+   "per_budget": [
+    {
+     "n": 16,
+     "ratio": 0.8817426038032488,
+     "starts_lower": 4
+    },
+    {
+     "n": 20,
+     "ratio": 1.0376067771317867,
+     "starts_lower": 3
+    },
+    {
+     "n": 24,
+     "ratio": 0.9547848553357594,
+     "starts_lower": 4
+    },
+    {
+     "n": 28,
+     "ratio": 0.914173335006562,
+     "starts_lower": 5
+    }
+   ],
+   "qualifying_budgets": [
+    16
+   ],
+   "regions_at28": {
+    "weak": 1.0355067211936888,
+    "sharp": 0.82193683198538
+   },
+   "clearly_better": false
+  },
+  "entropy_vs_ivr": {
+   "per_budget": [
+    {
+     "n": 16,
+     "ratio": 1.1341178204236337,
+     "starts_lower": 0
+    },
+    {
+     "n": 20,
+     "ratio": 0.9637562340950185,
+     "starts_lower": 2
+    },
+    {
+     "n": 24,
+     "ratio": 1.0473563697743615,
+     "starts_lower": 1
+    },
+    {
+     "n": 28,
+     "ratio": 1.0938844546289703,
+     "starts_lower": 0
+    }
+   ],
+   "qualifying_budgets": [],
+   "regions_at28": {
+    "weak": 0.9657107766980418,
+    "sharp": 1.2166385068600833
+   },
+   "clearly_better": false
+  },
+  "decision": "Case 2: tie -> prefer entropy (simpler)",
+  "preferred": "A_entropy_nosym"
+ },
+ "acquisition_symmetry": {
+  "ivr_vs_entropy": {
+   "per_budget": [
+    {
+     "n": 16,
+     "ratio": 1.0000003294129336,
+     "starts_lower": 0
+    },
+    {
+     "n": 20,
+     "ratio": 1.0415166660251536,
+     "starts_lower": 1
+    },
+    {
+     "n": 24,
+     "ratio": 1.019687216856278,
+     "starts_lower": 3
+    },
+    {
+     "n": 28,
+     "ratio": 1.3476628337688048,
+     "starts_lower": 1
+    }
+   ],
+   "qualifying_budgets": [],
+   "regions_at28": {
+    "weak": 0.6909023034678331,
+    "sharp": 1.1767899074915946
+   },
+   "clearly_better": false
+  },
+  "entropy_vs_ivr": {
+   "per_budget": [
+    {
+     "n": 16,
+     "ratio": 0.9999996705871749,
+     "starts_lower": 5
+    },
+    {
+     "n": 20,
+     "ratio": 0.9601382605008156,
+     "starts_lower": 4
+    },
+    {
+     "n": 24,
+     "ratio": 0.9806928864745659,
+     "starts_lower": 2
+    },
+    {
+     "n": 28,
+     "ratio": 0.7420253604556648,
+     "starts_lower": 4
+    }
+   ],
+   "qualifying_budgets": [
+    28
+   ],
+   "regions_at28": {
+    "weak": 1.447382640035673,
+    "sharp": 0.8497693544394564
+   },
+   "clearly_better": false
+  },
+  "decision": "Case 2: tie -> prefer entropy (simpler)",
+  "preferred": "C_entropy_sym"
+ },
+ "symmetry": {
+  "preferred_nosym": "A_entropy_nosym",
+  "preferred_sym": "C_entropy_sym",
+  "nosym_over_sym_global_p95": {
+   "20": 1.411784776768606,
+   "24": 1.3574825483517317,
+   "28": 2.4666689932012487
+  },
+  "nosym_over_sym_regions_at28": {
+   "weak": 4.545859581736298,
+   "sharp": 2.541695919305149
+  },
+  "decision": "Case 4: symmetry essential -> best method is physics-informed, not blind"
+ },
+ "entropy_vs_previous_selector": {
+  "12": {
+   "arm_A_median": 0.2672711277315081,
+   "previous_median": 0.2672711277315081,
+   "starts_lower": 0,
+   "starts_equal": 5,
+   "outperforms": false
+  },
+  "16": {
+   "arm_A_median": 0.11456770534434606,
+   "previous_median": 0.114567705344346,
+   "starts_lower": 0,
+   "starts_equal": 5,
+   "outperforms": false
+  },
+  "20": {
+   "arm_A_median": 0.04928718835242331,
+   "previous_median": 0.0492871883524218,
+   "starts_lower": 1,
+   "starts_equal": 4,
+   "outperforms": false
+  },
+  "24": {
+   "arm_A_median": 0.04295986092233536,
+   "previous_median": 0.0422496401693297,
+   "starts_lower": 1,
+   "starts_equal": 1,
+   "outperforms": false
+  },
+  "28": {
+   "arm_A_median": 0.03978877955762603,
+   "previous_median": 0.0408096138676997,
+   "starts_lower": 3,
+   "starts_equal": 1,
+   "outperforms": false
+  }
+ },
+ "best_arm": {
+  "16": {
+   "C_entropy_sym": 0.037231773547481126,
+   "D_ivr_sym": 0.03723178581210888,
+   "B_ivr_nosym": 0.10101922682208707,
+   "A_entropy_nosym": 0.11456770534434606
+  },
+  "20": {
+   "C_entropy_sym": 0.03491126208715421,
+   "D_ivr_sym": 0.0363606612957432,
+   "A_entropy_nosym": 0.04928718835242331,
+   "B_ivr_nosym": 0.05114072066024529
+  },
+  "28": {
+   "C_entropy_sym": 0.016130571092957253,
+   "D_ivr_sym": 0.021738571149443938,
+   "B_ivr_nosym": 0.036373841304035905,
+   "A_entropy_nosym": 0.03978877955762603
+  }
+ },
+ "winner_at_28": {
+  "arm": "C_entropy_sym",
+  "regions": {
+   "weak10_max_over": {
+    "winner": 0.0011297635895122227,
+    "best_of_four": 0.0007805562663680821,
+    "acceptable": true
+   },
+   "sharp10_max_over": {
+    "winner": 0.02128812995916962,
+    "best_of_four": 0.02128812995916962,
+    "acceptable": true
+   },
+   "high_shear_0.85_1_abs_p95": {
+    "winner": 0.006188382719082684,
+    "best_of_four": 0.006188382719082684,
+    "acceptable": true
+   }
+  }
+ }
+}

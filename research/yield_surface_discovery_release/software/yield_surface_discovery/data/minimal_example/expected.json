@@ -1,0 +1,20 @@
+{
+ "labels": [
+  "uniT0",
+  "uniC0",
+  "uniT90",
+  "uniC90",
+  "shear+0",
+  "shear-0",
+  "shear+30",
+  "shear-30",
+  "uniT45",
+  "uniC45",
+  "biT45",
+  "biC45"
+ ],
+ "global_p95": 0.07622848241253226,
+ "weak10_max_overprediction": 0.09071674639116512,
+ "tolerance_rel": 1e-08,
+ "note": "continuous GP reconstruction scored on the 3183 held-out directions"
+}

@@ -1,0 +1,31 @@
+# Closed loop against MOOSE (OPTIONAL; NOT executed on the development machine -- MOOSE was not installed there).
+# 1. set `executable` to your MOOSE application (e.g. .../moose/modules/solid_mechanics/solid_mechanics-opt or a container wrapper);
+# 2. check the object names in the input template against your MOOSE revision (`<app> --registry`);
+# 3. run:  python scripts/run_closed_loop.py --config configs/example_moose.yaml
+name: moose_example
+candidate_library:
+  path: ../data/candidates/expanded_physical_loading_library.csv
+  deduplicate: true
+symmetry:
+  shear_mirror: false               # a J2 material is isotropic; the generic blind mode makes no symmetry assumption
+gp: {kernel: matern32, target: log_radius, optimize_hyperparameters: true, fit_direction: requested}
+initialization: {method: angular_maximin, n_initial: 8, start_rule: seeded, seed_base: 7000, first_index: 0, ties: deterministic}
+acquisition: {method: predictive_variance, ties: deterministic}
+budget: {total_real_tests: 28, report_at: [8, 12, 16, 20, 24, 28]}
+starts: [0]
+oracle:
+  type: moose
+  executable: /path/to/moose-app-opt          # <-- EDIT
+  input_template: ../examples/moose_adapter/single_element_yield.i
+  work_dir: ../outputs/moose_runs
+  material_parameters: {E: 70000.0, nu: 0.3, sigma_y: 250.0, H: 700.0}   # hidden material: seen by the oracle only
+  lambda_cap: 2000.0                # rig capacity (MPa, Mandel radius)
+  n_ramp: 20
+  bisection_rel_tol: 1.0e-4
+  eqps_threshold: 1.0e-8
+  capacity_escalations: 1
+  launcher: []                      # e.g. ["mpiexec", "-n", "1"] or a container wrapper
+  timeout_s: 600
+output:
+  directory: ../outputs/moose_example
+  export_mesh: true

@@ -1,0 +1,122 @@
+{
+ "noninferiority": {
+  "16": {
+   "diff_pp": 0.22098105599597517,
+   "ok": true
+  },
+  "20": {
+   "diff_pp": -0.8757838284187518,
+   "ok": true
+  },
+  "24": {
+   "diff_pp": -0.9656776453991027,
+   "ok": true
+  },
+  "28": {
+   "diff_pp": 0.019748315317063767,
+   "ok": true
+  }
+ },
+ "noninferior": true,
+ "early": {
+  "8": {
+   "ratio": 0.5239814370703779,
+   "diff_pp": 14.32050191068722,
+   "improved": true
+  },
+  "12": {
+   "ratio": 1.3559354545368696,
+   "diff_pp": -2.7119506900108976,
+   "improved": false
+  },
+  "16": {
+   "ratio": 1.0593528147978666,
+   "diff_pp": -0.22098105599597517,
+   "improved": false
+  }
+ },
+ "median_improvement": {
+  "16": {
+   "ratio": 1.0593528147978666,
+   "improved": false
+  },
+  "20": {
+   "ratio": 0.7491400264383448,
+   "improved": true
+  },
+  "24": {
+   "ratio": 0.6948568913357147,
+   "improved": true
+  },
+  "28": {
+   "ratio": 1.0122427874396127,
+   "improved": false
+  }
+ },
+ "iqr": {
+  "16": {
+   "iqr_new": 0.01919738334735458,
+   "iqr_old": 0.009249998339849103
+  },
+  "20": {
+   "iqr_new": 0.019663491438319802,
+   "iqr_old": 0.006810135978641302
+  },
+  "24": {
+   "iqr_new": 0.010833552337734174,
+   "iqr_old": 0.0025554157659928994
+  },
+  "28": {
+   "iqr_new": 0.005258746317665337,
+   "iqr_old": 0.0054712444865506
+  }
+ },
+ "mean_iqr_ratio": 2.540847032134592,
+ "redundant_median": {
+  "new": 0.0,
+  "armC": 1.0
+ },
+ "material": {
+  "early_budget": false,
+  "median_global_p95": true,
+  "seed_robustness": false,
+  "redundant_real_tests": true
+ },
+ "any_material": true,
+ "regions": {
+  "weak10_max_over@16": {
+   "new": 0.007828437576921199,
+   "armC": 0.0051723934584062,
+   "worsened": true
+  },
+  "sharp10_max_over@16": {
+   "new": 0.0525243279573252,
+   "armC": 0.0441926803574168,
+   "worsened": false
+  },
+  "high_shear_0.85_1_abs_p95@16": {
+   "new": 0.01786034373204694,
+   "armC": 0.010236826394138,
+   "worsened": true
+  },
+  "weak10_max_over@28": {
+   "new": 0.001294347713095556,
+   "armC": 0.0011297635895122,
+   "worsened": false
+  },
+  "sharp10_max_over@28": {
+   "new": 0.02271221774643306,
+   "armC": 0.0212881299591696,
+   "worsened": false
+  },
+  "high_shear_0.85_1_abs_p95@28": {
+   "new": 0.007576915789500814,
+   "armC": 0.0061883827190826,
+   "worsened": false
+  }
+ },
+ "regions_ok": false,
+ "strong_cleanup_result": false,
+ "decision": "KEEP Arm C (cleaned method materially worse)",
+ "note": "material.redundant_real_tests is satisfied by construction whenever Arm C's median redundancy >= 1 (known before registration: Arm C = [1,0,1,1,0])"
+}
