@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Yield Surface BO command-line entry point (portable: no absolute paths).  Usage: ./ysbo <command> ...   (./ysbo --help)
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export YSBO_ROOT="$ROOT" PYTHONPATH="$ROOT/software${PYTHONPATH:+:$PYTHONPATH}" PYTHONDONTWRITEBYTECODE=1
+export OMP_NUM_THREADS="${OMP_NUM_THREADS:-1}" OPENBLAS_NUM_THREADS="${OPENBLAS_NUM_THREADS:-1}" MKL_NUM_THREADS="${MKL_NUM_THREADS:-1}" MPLBACKEND=Agg
+PY="${YSBO_PYTHON:-}"; [ -z "$PY" ] && [ -x "$ROOT/.venv/bin/python" ] && PY="$ROOT/.venv/bin/python"; [ -z "$PY" ] && PY="$(command -v python3)"
+exec "$PY" -B -m yield_surface_bo "$@"

@@ -1,0 +1,24 @@
+# Pinned runtime environment = the environment in which every registered result was produced (Python 3.12.9, Linux x86_64).
+# Bit-exact reproduction of the registered (legacy round-off tie) runs requires exactly these versions; the deterministic deployment mode
+# is robust to small numerical differences.  Install:  python3.12 -m venv .venv && .venv/bin/pip install -r requirements-lock.txt
+numpy==1.26.4
+scipy==1.15.2
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.1
+pyyaml==6.0.2
+pytest==8.3.5
+# transitive runtime dependencies (versions of the registered environment)
+contourpy==1.3.1
+cycler==0.12.1
+fonttools==4.56.0
+joblib==1.4.2
+kiwisolver==1.4.8
+packaging==24.2
+pillow==11.1.0
+pyparsing==3.2.1
+python-dateutil==2.9.0.post0
+pytz==2025.2
+six==1.16.0
+threadpoolctl==3.5.0
+tzdata==2025.2

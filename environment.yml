@@ -1,0 +1,14 @@
+# Conda alternative to requirements-lock.txt (same pinned versions; installed from PyPI wheels, as in the registered environment).
+name: yield-surface-bo
+channels: [conda-forge]
+dependencies:
+  - python=3.12.9
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - scipy==1.15.2
+      - pandas==2.2.3
+      - scikit-learn==1.6.1
+      - matplotlib==3.10.1
+      - pyyaml==6.0.2
+      - pytest==8.3.5
