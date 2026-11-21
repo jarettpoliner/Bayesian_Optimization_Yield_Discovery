@@ -1,0 +1,34 @@
+# Closed-loop BO on the MOOSE plane-stress composite S2, generic BLIND mode.
+# Identical to yield_surface_discovery/configs/benchmark_blind.yaml except: budget (8 + 5 = 13), one start, and the oracle,
+# which is supplied in Python (closed_loop/run_bo_moose.py -> PsbenchMooseOracle) rather than built from this file.
+# shear_mirror is OFF: S2 has inclusions at 30 deg, so the s_xy -> -s_xy mirror is NOT a symmetry of this material.
+name: S2_blind_closed_loop
+candidate_library:
+  path: ../../../../yield_surface_discovery_release/software/yield_surface_discovery/data/candidates/expanded_physical_loading_library.csv
+  deduplicate: true
+  dedup_tolerance: 1.0e-9
+symmetry:
+  shear_mirror: false
+gp:
+  kernel: matern32
+  target: log_radius
+  optimize_hyperparameters: true    # frozen schedule: fixed hyper-parameters below 20 training points (all 13 steps here), ML-II from 20
+  fit_direction: requested
+initialization:
+  method: angular_maximin
+  n_initial: 8
+  start_rule: seeded
+  seed_base: 7000
+  first_index: 0
+  ties: deterministic
+acquisition:
+  method: predictive_variance       # the package's only acquisition; see AUDIT.md: the historical "MES" label meant this, not max-value entropy search
+  ties: deterministic
+  tie_relative_tolerance: 1.0e-10
+  tie_absolute_tolerance: 1.0e-12
+budget:
+  total_real_tests: 13
+starts: [0]
+oracle:
+  type: psbench_moose               # informational only; the BO side sees just this id
+  specimen_id: S2
