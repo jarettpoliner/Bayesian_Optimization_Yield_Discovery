@@ -1,0 +1,108 @@
+{
+  "variant": "B1",
+  "tag": "FB_B1_pool_t01",
+  "nel": 40,
+  "pin_mode": "corners",
+  "constrained_dofs_probe": 160,
+  "direction": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "yield_radius": 182.17249288575084,
+  "criteria": {
+    "eqps_rve_avg": {
+      "level": 0.0001,
+      "r_coarse": 182.09191480606341,
+      "r_refined": 182.17249288575084
+    },
+    "eqps_m_avg": {
+      "level": 0.0001,
+      "r_coarse": 193.53742443808977,
+      "r_refined": 198.75981555302502
+    }
+  },
+  "first_local_yield_radius_probe": {
+    "matrix": 137.28013076376573,
+    "inclusion": 140.41995536691508
+  },
+  "first_plastic_ramp_step_radius": {
+    "matrix": 144.1441373,
+    "inclusion": 144.1441373
+  },
+  "r1_planning": 137.28013076376573,
+  "stress_mandel": [
+    182.1724928857511,
+    -2.5541773612514896e-12,
+    4.1849300951662945e-14
+  ],
+  "direction_error": 0.0,
+  "sigma_zz_qp_absmax": 8.6223593598334e-08,
+  "sigma_zz_rel": 4.0486920375789194e-10,
+  "at_yield": {
+    "eqps_rve_avg": 9.999999999999999e-05,
+    "eqps_m_avg": 1.6622738760531564e-05,
+    "eqps_i_avg": 0.0005226161144623219,
+    "pvf_m": 0.056866775156878026,
+    "pvf_i": 1.0,
+    "wp_rve_avg": 0.02133100933865075,
+    "e_xx": 0.0023203221352109797,
+    "e_yy": -0.0007992486084391738,
+    "e_xy": -1.1978881374181998e-05,
+    "e_zz": -0.0007943571927177054
+  },
+  "end_of_ramp": {
+    "r": 212.9665403,
+    "eqps_rve_avg": 0.012268624627808,
+    "eqps_m_avg": 0.013048192513504,
+    "eqps_i_avg": 0.0083172121453793,
+    "pvf_m": 1.0,
+    "pvf_i": 1.0
+  },
+  "volumes": {
+    "matrix": 0.83522064666591,
+    "inclusion": 0.16477935333409,
+    "total": 1.0,
+    "f_m": 0.83522064666591,
+    "f_i": 0.16477935333409
+  },
+  "volume_consistency": {
+    "max_abs": 1.3530843112619095e-16,
+    "max_rel_where_positive": 6.377663744761535e-14
+  },
+  "elastic_compliance": [
+    1.2015692115043e-05,
+    -4.0820846660689e-06,
+    -1.7995253650746e-07,
+    -3.9988145459053e-06
+  ],
+  "converged": true,
+  "flags": [],
+  "accepted": true,
+  "nonlinear_iterations": 199,
+  "n_steps": 34,
+  "runs": {
+    "probe": {
+      "returncode": 0,
+      "wall_s": 3.959936790000029,
+      "failed_solves": 0
+    },
+    "ramp": {
+      "returncode": 0,
+      "wall_s": 88.48714006399996,
+      "failed_solves": 0
+    },
+    "refine_eqps_rve_avg": {
+      "returncode": 0,
+      "wall_s": 34.70784188300013,
+      "failed_solves": 0
+    },
+    "refine_eqps_m_avg": {
+      "returncode": 0,
+      "wall_s": 29.970714130999568,
+      "failed_solves": 0
+    }
+  },
+  "runtime_seconds": 157.17879902899995,
+  "workdir": "/home/jarettpoliner/projects/yield_surface_moose/plane_stress/closed_loop/biphasic_benchmark/runs/B1/h40/FB_B1_pool_t01"
+}

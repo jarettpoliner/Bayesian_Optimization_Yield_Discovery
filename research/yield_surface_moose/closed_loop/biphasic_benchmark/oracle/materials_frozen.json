@@ -1,0 +1,7 @@
+{
+ "_note": "SIMULATOR SIDE ONLY. Frozen 2026-11-19 for Stage S1. Units MPa. Linear isotropic hardening sigma_Y(k) = sy + H k (MOOSE SolidMechanicsHardeningPowerRule value_0 = sy, epsilon0 = sy/H, exponent 1). Mesh: specimens/S2/mesh_h40 (S2 geometry). B1/B2 are controlled synthetic benchmark materials: E, nu, sy set to published typical values of annealed AISI 304 and AA5052-O; H is an illustrative numerical choice; they are not models of those alloys.",
+ "HOMOG2": {"matrix": {"E": 70000.0, "nu": 0.33, "sy": 250.0, "H": 1000.0}, "inclusion": {"E": 70000.0, "nu": 0.33, "sy": 250.0, "H": 1000.0}},
+ "B0E":    {"matrix": {"E": 72000.0, "nu": 0.34, "sy": 200.0, "H": 800.0},  "inclusion": {"E": 230000.0, "nu": 0.22, "sy": 1.0e9, "H": 1000.0}},
+ "B1":     {"matrix": {"E": 72000.0, "nu": 0.34, "sy": 200.0, "H": 800.0},  "inclusion": {"E": 193000.0, "nu": 0.29, "sy": 215.0, "H": 1500.0}},
+ "B2":     {"matrix": {"E": 72000.0, "nu": 0.34, "sy": 200.0, "H": 800.0},  "inclusion": {"E": 70300.0, "nu": 0.33, "sy": 90.0, "H": 500.0}}
+}
