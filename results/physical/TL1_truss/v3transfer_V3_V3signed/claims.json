@@ -1,0 +1,210 @@
+{
+ "CONFIRMATORY_arm_A_frozen_V3": {
+  "V3F_vs_AXMM": {
+   "primary": {
+    "surrogate": "A20",
+    "n": 33,
+    "metric": "area_mean",
+    "a": "V3F",
+    "b": "AXMM",
+    "wins_a": 7,
+    "ratio_HL": 1.108595587342932,
+    "ratio_ci_lo": 0.8644293797829296,
+    "ratio_ci_hi": 1.2051477599315177,
+    "ci_conf": 0.9609375,
+    "p_exact": 0.203125,
+    "median_err_a": 0.05638037198297819,
+    "median_err_b": 0.06436171976220899,
+    "median_diff_pp": 0.7981347779230797,
+    "p_holm2": 0.40625
+   },
+   "fixed": {
+    "surrogate": "FIXED",
+    "n": 33,
+    "metric": "area_mean",
+    "a": "V3F",
+    "b": "AXMM",
+    "wins_a": 7,
+    "ratio_HL": 1.1197323247315758,
+    "ratio_ci_lo": 0.9131599647654112,
+    "ratio_ci_hi": 1.2050103490034036,
+    "ci_conf": 0.9609375,
+    "p_exact": 0.1640625,
+    "median_err_a": 0.05875755848685797,
+    "median_err_b": 0.06957406342159146,
+    "median_diff_pp": 0.9684923536548956
+   },
+   "criteria_better": {
+    "holm": 0.0,
+    "ci": false,
+    "wins": false,
+    "floor": true,
+    "fixed": true
+   },
+   "criteria_worse": {
+    "holm": 0.0,
+    "ci": false,
+    "wins": false,
+    "floor": false,
+    "fixed": false
+   },
+   "verdict": "NO SUPPORTED DIFFERENCE",
+   "practically_meaningful": false
+  },
+  "V3F_vs_V2": {
+   "primary": {
+    "surrogate": "A20",
+    "n": 33,
+    "metric": "area_mean",
+    "a": "V3F",
+    "b": "V2",
+    "wins_a": 4,
+    "ratio_HL": 0.9672179012425416,
+    "ratio_ci_lo": 0.8309441489061189,
+    "ratio_ci_hi": 1.0959889403295708,
+    "ci_conf": 0.9609375,
+    "p_exact": 0.49609375,
+    "median_err_a": 0.05638037198297819,
+    "median_err_b": 0.05534847419095648,
+    "median_diff_pp": -0.1031897792021709,
+    "p_holm2": 0.49609375
+   },
+   "fixed": {
+    "surrogate": "FIXED",
+    "n": 33,
+    "metric": "area_mean",
+    "a": "V3F",
+    "b": "V2",
+    "wins_a": 4,
+    "ratio_HL": 0.9863388799973358,
+    "ratio_ci_lo": 0.8415715615659892,
+    "ratio_ci_hi": 1.1202378214896218,
+    "ci_conf": 0.9609375,
+    "p_exact": 0.8203125,
+    "median_err_a": 0.05875755848685797,
+    "median_err_b": 0.05542185021720618,
+    "median_diff_pp": -0.33357082696517937
+   },
+   "criteria_better": {
+    "holm": 0.0,
+    "ci": false,
+    "wins": false,
+    "floor": false,
+    "fixed": false
+   },
+   "criteria_worse": {
+    "holm": 0.0,
+    "ci": false,
+    "wins": false,
+    "floor": false,
+    "fixed": false
+   },
+   "verdict": "NO SUPPORTED DIFFERENCE",
+   "practically_meaningful": false
+  }
+ },
+ "EXPLORATORY_arm_B_V3_signed": {
+  "V3S_vs_AXMM": {
+   "primary": {
+    "surrogate": "A20",
+    "n": 33,
+    "metric": "area_mean",
+    "a": "V3S",
+    "b": "AXMM",
+    "wins_a": 6,
+    "ratio_HL": 1.0319362233112663,
+    "ratio_ci_lo": 0.83197984600181,
+    "ratio_ci_hi": 1.126598636193523,
+    "ci_conf": 0.9609375,
+    "p_exact": 0.5703125,
+    "median_err_a": 0.060619784292207254,
+    "median_err_b": 0.06436171976220899,
+    "median_diff_pp": 0.3215121396143092,
+    "p_holm2": 0.5703125
+   },
+   "fixed": {
+    "surrogate": "FIXED",
+    "n": 33,
+    "metric": "area_mean",
+    "a": "V3S",
+    "b": "AXMM",
+    "wins_a": 6,
+    "ratio_HL": 1.0560665865777006,
+    "ratio_ci_lo": 0.820611528772307,
+    "ratio_ci_hi": 1.141316156808087,
+    "ci_conf": 0.9609375,
+    "p_exact": 0.359375,
+    "median_err_a": 0.06180764776400934,
+    "median_err_b": 0.06957406342159146,
+    "median_diff_pp": 0.4314638874260021
+   },
+   "criteria_better": {
+    "holm": 0.0,
+    "ci": false,
+    "wins": false,
+    "floor": true,
+    "fixed": false
+   },
+   "criteria_worse": {
+    "holm": 0.0,
+    "ci": false,
+    "wins": false,
+    "floor": false,
+    "fixed": false
+   },
+   "verdict": "NO SUPPORTED DIFFERENCE",
+   "practically_meaningful": false
+  },
+  "V3S_vs_V2": {
+   "primary": {
+    "surrogate": "A20",
+    "n": 33,
+    "metric": "area_mean",
+    "a": "V3S",
+    "b": "V2",
+    "wins_a": 3,
+    "ratio_HL": 0.9013673793429772,
+    "ratio_ci_lo": 0.793663067725226,
+    "ratio_ci_hi": 1.0255901396714189,
+    "ci_conf": 0.9609375,
+    "p_exact": 0.09765625,
+    "median_err_a": 0.060619784292207254,
+    "median_err_b": 0.05534847419095648,
+    "median_diff_pp": -0.8290272922270248,
+    "p_holm2": 0.1953125
+   },
+   "fixed": {
+    "surrogate": "FIXED",
+    "n": 33,
+    "metric": "area_mean",
+    "a": "V3S",
+    "b": "V2",
+    "wins_a": 4,
+    "ratio_HL": 0.9263531418484484,
+    "ratio_ci_lo": 0.7998693947057787,
+    "ratio_ci_hi": 1.0427267092481098,
+    "ci_conf": 0.9609375,
+    "p_exact": 0.1640625,
+    "median_err_a": 0.06180764776400934,
+    "median_err_b": 0.05542185021720618,
+    "median_diff_pp": -0.8045737069584148
+   },
+   "criteria_better": {
+    "holm": 0.0,
+    "ci": false,
+    "wins": false,
+    "floor": false,
+    "fixed": false
+   },
+   "criteria_worse": {
+    "holm": 0.0,
+    "ci": false,
+    "wins": false,
+    "floor": true,
+    "fixed": false
+   },
+   "verdict": "NO SUPPORTED DIFFERENCE",
+   "practically_meaningful": false
+  }
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "status": "independent holdout (Yld91 family, fresh seeds/starts/references; frozen before any controller run)",
+ "confirmatory": {
+  "H1": {
+   "comparison": "V3 vs AXMM",
+   "metric": "glob_mean",
+   "n": 33,
+   "pairs": 24,
+   "wins": 19,
+   "losses": 5,
+   "median_ratio": 1.260861820276825,
+   "hl_ratio": 1.3371653628700282,
+   "hl_ci95": [
+    1.1315861272936705,
+    1.6474401381198251
+   ],
+   "wilcoxon_p": 0.0012379884719848633,
+   "holm_p": 0.0012379884719848633,
+   "verdict": "CONFIRMED"
+  },
+  "H2": {
+   "comparison": "V3 vs V2",
+   "metric": "glob_mean",
+   "n": 33,
+   "pairs": 24,
+   "wins": 23,
+   "losses": 1,
+   "median_ratio": 1.1560750373975281,
+   "hl_ratio": 1.4827910628299428,
+   "hl_ci95": [
+    1.1109157050643594,
+    1.6859669291424177
+   ],
+   "wilcoxon_p": 2.2649765014648438e-06,
+   "holm_p": 4.5299530029296875e-06,
+   "verdict": "CONFIRMED"
+  },
+  "H3": {
+   "comparison": "V3 vs AXMM",
+   "metric": "glob_mean",
+   "n": 64,
+   "pairs": 24,
+   "wins": 24,
+   "losses": 0,
+   "median_ratio": 1.8857652311426985,
+   "hl_ratio": 2.0136009493060945,
+   "hl_ci95": [
+    1.6869180614256776,
+    2.3929362545985917
+   ],
+   "wilcoxon_p": 1.1920928955078125e-07,
+   "holm_p": 3.5762786865234375e-07,
+   "verdict": "CONFIRMED"
+  }
+ },
+ "primary_verdict": "CONFIRMED",
+ "tradeoff_guards": {
+  "hc_mean": {
+   "pairs": 24,
+   "wins": 20,
+   "losses": 4,
+   "median_ratio": 1.5415125337017586,
+   "hl_ratio": 1.570858810136247,
+   "hl_ci95": [
+    1.3100875043198157,
+    2.3121610068479312
+   ],
+   "wilcoxon_p": 0.00037276744842529297,
+   "met": true
+  },
+  "glob_max": {
+   "pairs": 24,
+   "wins": 21,
+   "losses": 3,
+   "median_ratio": 1.3347532437973855,
+   "hl_ratio": 1.4235245400568488,
+   "hl_ci95": [
+    1.215938059400362,
+    1.8605409335461438
+   ],
+   "wilcoxon_p": 0.001092672348022461,
+   "met": true
+  }
+ },
+ "unacceptable_tradeoff": false,
+ "response_attribution_V3_vs_V3ISO_glob33": {
+  "pairs": 24,
+  "wins": 12,
+  "losses": 12,
+  "median_ratio": 1.0091807349835968,
+  "hl_ratio": 1.012332507261088,
+  "hl_ci95": [
+   0.9141630429451302,
+   1.122567773678366
+  ],
+  "wilcoxon_p": 0.7898378372192383
+ },
+ "moderators_spearman_L_H1": {
+  "aniso": {
+   "rho": -0.05217391304347826,
+   "p": 0.8086881976469136
+  },
+  "kappa_p99": {
+   "rho": -0.2678260869565217,
+   "p": 0.20576390509564657
+  },
+  "m": {
+   "rho": -0.5823957268118436,
+   "p": 0.0028259412058040468
+  }
+ },
+ "by_level": [
+  {
+   "level": "m2_s0.15",
+   "median_ratio_AXMM_over_V3": 2.2258953133643904,
+   "wins": 4,
+   "median_ratio_V2_over_V3": 2.2951539950213715
+  },
+  {
+   "level": "m2_s0.30",
+   "median_ratio_AXMM_over_V3": 2.095437852061523,
+   "wins": 3,
+   "median_ratio_V2_over_V3": 2.2568728580262265
+  },
+  {
+   "level": "m6_s0.15",
+   "median_ratio_AXMM_over_V3": 1.3012148235828165,
+   "wins": 4,
+   "median_ratio_V2_over_V3": 1.1431848722260725
+  },
+  {
+   "level": "m6_s0.30",
+   "median_ratio_AXMM_over_V3": 0.9614386575008649,
+   "wins": 2,
+   "median_ratio_V2_over_V3": 1.3973011271762292
+  },
+  {
+   "level": "m8_s0.15",
+   "median_ratio_AXMM_over_V3": 1.148855320367592,
+   "wins": 3,
+   "median_ratio_V2_over_V3": 1.0630015063856801
+  },
+  {
+   "level": "m8_s0.30",
+   "median_ratio_AXMM_over_V3": 1.125453128718546,
+   "wins": 3,
+   "median_ratio_V2_over_V3": 1.061236035786322
+  }
+ ],
+ "selection": {
+  "D33_V3_vs_ISO_median": 24.0,
+  "D33_V3_vs_ISO_range": [
+   20,
+   25
+  ],
+  "D33_V3_vs_V2_median": 25.0,
+  "share_differs_from_MES_median": 1.0,
+  "fallback_steps": 0
+ },
+ "cost": {
+  "wall_s_median": {
+   "V3": 4.329580903053284,
+   "V2": 3.821785807609558,
+   "AXMM": 1.141925573348999,
+   "RANDOM": 0.6003166437149048,
+   "V3_ISO": 3.9956482648849487
+  },
+  "wall_s_total": {
+   "V3": 104.27625036239624,
+   "V2": 90.18375778198242,
+   "AXMM": 27.840133905410767,
+   "RANDOM": 14.911679029464722,
+   "V3_ISO": 96.18424248695374
+  },
+  "V3_over_V2_median": 1.1527787839930252
+ }
+}

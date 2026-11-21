@@ -1,0 +1,15 @@
+{
+ "share_frozen_ne_signed": {
+  "V3F": 0.8928571428571429,
+  "V3S": 0.9365079365079365
+ },
+ "chosen_matches_own_rule": {
+  "V3F": 1.0,
+  "V3S": 1.0
+ },
+ "median_corr_log_rho": {
+  "V3F": 0.775222620544525,
+  "V3S": 0.7741011120787099
+ },
+ "n_states": 1008
+}

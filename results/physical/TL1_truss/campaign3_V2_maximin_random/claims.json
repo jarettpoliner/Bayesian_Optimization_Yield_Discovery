@@ -1,0 +1,108 @@
+{
+ "V2_vs_AXMM": {
+  "primary": {
+   "surrogate": "A20",
+   "n": 33,
+   "metric": "area_mean",
+   "a": "V2",
+   "b": "AXMM",
+   "wins_a": 7,
+   "ratio_HL": 1.1083464947488588,
+   "ratio_ci_lo": 1.0052553999223977,
+   "ratio_ci_hi": 1.2490539454069327,
+   "ci_conf": 0.9609375,
+   "p_exact": 0.0390625,
+   "median_err_a": 0.05534847419095648,
+   "median_err_b": 0.06436171976220899,
+   "median_diff_pp": 0.6784039905563949,
+   "p_holm3": 0.078125,
+   "p_holm2": 0.0390625
+  },
+  "fixed_sensitivity": {
+   "surrogate": "FIXED",
+   "n": 33.0,
+   "metric": "area_mean",
+   "a": "V2",
+   "b": "AXMM",
+   "wins_a": 7.0,
+   "ratio_HL": 1.1126876298576733,
+   "ratio_ci_lo": 1.0047699209143248,
+   "ratio_ci_hi": 1.2828423536028974,
+   "ci_conf": 0.9609375,
+   "p_exact": 0.0390625,
+   "median_err_a": 0.05542185021720618,
+   "median_err_b": 0.06957406342159146,
+   "median_diff_pp": 0.3298512665866171,
+   "p_holm3": 0.078125
+  },
+  "criteria_better": {
+   "holm": true,
+   "ci": true,
+   "wins": false,
+   "floor": true,
+   "fixed": 1.0
+  },
+  "criteria_worse": {
+   "holm": true,
+   "ci": false,
+   "wins": false,
+   "floor": false,
+   "fixed": 0.0
+  },
+  "verdict": "NO SUPPORTED DIFFERENCE",
+  "practically_meaningful": false
+ },
+ "V2_vs_RANDOM": {
+  "primary": {
+   "surrogate": "A20",
+   "n": 33,
+   "metric": "area_mean",
+   "a": "V2",
+   "b": "RANDOM",
+   "wins_a": 9,
+   "ratio_HL": 1.2847613759071468,
+   "ratio_ci_lo": 1.0714619869004498,
+   "ratio_ci_hi": 1.5884517332798578,
+   "ci_conf": 0.9609375,
+   "p_exact": 0.00390625,
+   "median_err_a": 0.05534847419095648,
+   "median_err_b": 0.06990100591117816,
+   "median_diff_pp": 0.7893071853003731,
+   "p_holm3": 0.01171875,
+   "p_holm2": 0.0078125
+  },
+  "fixed_sensitivity": {
+   "surrogate": "FIXED",
+   "n": 33.0,
+   "metric": "area_mean",
+   "a": "V2",
+   "b": "RANDOM",
+   "wins_a": 9.0,
+   "ratio_HL": 1.2753712079621176,
+   "ratio_ci_lo": 1.1056638974930404,
+   "ratio_ci_hi": 1.5840693038437428,
+   "ci_conf": 0.9609375,
+   "p_exact": 0.00390625,
+   "median_err_a": 0.05542185021720618,
+   "median_err_b": 0.07329601257829053,
+   "median_diff_pp": 1.128113658372204,
+   "p_holm3": 0.01171875
+  },
+  "criteria_better": {
+   "holm": true,
+   "ci": true,
+   "wins": true,
+   "floor": true,
+   "fixed": 1.0
+  },
+  "criteria_worse": {
+   "holm": true,
+   "ci": false,
+   "wins": false,
+   "floor": false,
+   "fixed": 0.0
+  },
+  "verdict": "V2 ADVANTAGE",
+  "practically_meaningful": true
+ }
+}

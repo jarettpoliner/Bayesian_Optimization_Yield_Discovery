@@ -1,0 +1,9 @@
+{
+ "dropped": [
+  [
+   "B2",
+   "FBR61"
+  ]
+ ],
+ "note": "see recovery_r1/STAGE2_GATE_EXCEPTION.md"
+}

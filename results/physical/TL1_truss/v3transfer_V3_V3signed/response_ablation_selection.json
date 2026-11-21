@@ -1,0 +1,128 @@
+{
+ "V3F_s0": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 10,
+  "overlap64_iso": 13,
+  "overlap33_v2": 8,
+  "overlap64_v2": 9
+ },
+ "V3F_s1": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 8,
+  "overlap33_v2": 8,
+  "overlap64_v2": 9
+ },
+ "V3F_s2": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 8,
+  "overlap33_v2": 8,
+  "overlap64_v2": 10
+ },
+ "V3F_s3": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 8,
+  "overlap33_v2": 8,
+  "overlap64_v2": 8
+ },
+ "V3F_s4": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 9,
+  "overlap33_v2": 8,
+  "overlap64_v2": 8
+ },
+ "V3F_s5": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 9,
+  "overlap33_v2": 8,
+  "overlap64_v2": 9
+ },
+ "V3F_s6": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 8,
+  "overlap33_v2": 8,
+  "overlap64_v2": 8
+ },
+ "V3F_s7": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 9,
+  "overlap33_v2": 8,
+  "overlap64_v2": 9
+ },
+ "V3F_s8": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 9,
+  "overlap33_v2": 8,
+  "overlap64_v2": 9
+ },
+ "V3S_s0": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 8,
+  "overlap33_v2": 8,
+  "overlap64_v2": 8
+ },
+ "V3S_s1": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 10,
+  "overlap33_v2": 8,
+  "overlap64_v2": 8
+ },
+ "V3S_s2": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 8,
+  "overlap33_v2": 8,
+  "overlap64_v2": 8
+ },
+ "V3S_s3": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 8,
+  "overlap33_v2": 9,
+  "overlap64_v2": 10
+ },
+ "V3S_s4": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 9,
+  "overlap33_v2": 8,
+  "overlap64_v2": 9
+ },
+ "V3S_s5": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 9,
+  "overlap33_v2": 8,
+  "overlap64_v2": 8
+ },
+ "V3S_s6": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 10,
+  "overlap33_v2": 8,
+  "overlap64_v2": 8
+ },
+ "V3S_s7": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 8,
+  "overlap64_iso": 13,
+  "overlap33_v2": 8,
+  "overlap64_v2": 8
+ },
+ "V3S_s8": {
+  "first_divergence_iso": 9,
+  "overlap33_iso": 9,
+  "overlap64_iso": 12,
+  "overlap33_v2": 9,
+  "overlap64_v2": 10
+ }
+}

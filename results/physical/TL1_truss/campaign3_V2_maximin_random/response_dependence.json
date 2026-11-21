@@ -1,0 +1,74 @@
+{
+ "0": {
+  "first_divergence_vs_constant": 9,
+  "overlap33_const": 10,
+  "overlap64_const": 10,
+  "overlap33_axmm": 14,
+  "overlap64_axmm": 15,
+  "first_divergence_vs_axmm": 9
+ },
+ "1": {
+  "first_divergence_vs_constant": 9,
+  "overlap33_const": 12,
+  "overlap64_const": 12,
+  "overlap33_axmm": 14,
+  "overlap64_axmm": 18,
+  "first_divergence_vs_axmm": 11
+ },
+ "2": {
+  "first_divergence_vs_constant": 19,
+  "overlap33_const": 18,
+  "overlap64_const": 19,
+  "overlap33_axmm": 10,
+  "overlap64_axmm": 14,
+  "first_divergence_vs_axmm": 9
+ },
+ "3": {
+  "first_divergence_vs_constant": 11,
+  "overlap33_const": 14,
+  "overlap64_const": 15,
+  "overlap33_axmm": 12,
+  "overlap64_axmm": 12,
+  "first_divergence_vs_axmm": 9
+ },
+ "4": {
+  "first_divergence_vs_constant": 11,
+  "overlap33_const": 14,
+  "overlap64_const": 14,
+  "overlap33_axmm": 12,
+  "overlap64_axmm": 12,
+  "first_divergence_vs_axmm": 9
+ },
+ "5": {
+  "first_divergence_vs_constant": 11,
+  "overlap33_const": 14,
+  "overlap64_const": 14,
+  "overlap33_axmm": 12,
+  "overlap64_axmm": 14,
+  "first_divergence_vs_axmm": 13
+ },
+ "6": {
+  "first_divergence_vs_constant": 9,
+  "overlap33_const": 12,
+  "overlap64_const": 12,
+  "overlap33_axmm": 12,
+  "overlap64_axmm": 13,
+  "first_divergence_vs_axmm": 9
+ },
+ "7": {
+  "first_divergence_vs_constant": 17,
+  "overlap33_const": 18,
+  "overlap64_const": 18,
+  "overlap33_axmm": 10,
+  "overlap64_axmm": 14,
+  "first_divergence_vs_axmm": 9
+ },
+ "8": {
+  "first_divergence_vs_constant": 9,
+  "overlap33_const": 11,
+  "overlap64_const": 11,
+  "overlap33_axmm": 14,
+  "overlap64_axmm": 17,
+  "first_divergence_vs_axmm": 9
+ }
+}
